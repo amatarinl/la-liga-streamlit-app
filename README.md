@@ -161,6 +161,7 @@ This project is licensed under the MIT License.
 
 ## Project Structure
 
+```text
 la_liga_streamlit_app/
 │
 ├── main.py
@@ -183,7 +184,7 @@ la_liga_streamlit_app/
     ├── match_utils.py
     ├── standings_utils.py
     └── translations.py
-
+```
 
 ---
 
@@ -193,34 +194,52 @@ la_liga_streamlit_app/
 
 ```bash
 git clone https://github.com/your-username/la-liga-streamlit-app.git
+```
 
 ## Navigate into the project folder
+
+```bash
 cd la-liga-streamlit-app
+```
 
 ## Create a virtual environment
+
+```bash
 python -m venv venv
+```
 
 Activate it:
 
 Windows
 
+```bash
 venv\Scripts\activate
+```
 
 Mac / Linux
 
+```bash
 source venv/bin/activate
+```
 
 ## Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
 ## Run the Streamlit application
+
+```bash
 streamlit run main.py
+```
 
 ## Notes
 
 This project was developed as a practical Streamlit application to consolidate concepts such as:
-- interactive dashboards
-- reusable view-based architecture
-- session state management
-- basic sports analytics
+
+- interactive dashboards  
+- reusable view-based architecture  
+- session state management  
+- basic sports analytics  
 - bilingual UI support
