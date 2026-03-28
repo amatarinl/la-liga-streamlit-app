@@ -193,7 +193,7 @@ la_liga_streamlit_app/
 ## Clone the repository
 
 ```bash
-git clone https://github.com/your-username/la-liga-streamlit-app.git
+git clone https://github.com/amatarinl/la-liga-streamlit-app.git
 ```
 
 ## Navigate into the project folder
